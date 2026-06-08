@@ -107,15 +107,15 @@
 | NTSA0XH103   | NTC     | Temperature Sensor Lead Type, 10k 15mW, 2.5mm   |
 | NTSA0XM202   | NTC     | Temperature Sensor Lead Type, 2k 21mW, 2.5mm    |
 | NTSA0XR502   | NTC     | Temperature Sensor Lead Type, 5k 21mW, 2.5mm    |
-| NTSA0XV103   | NTC     | Temperature Sensor Lead Type, 10k 21mW, 2.5mm   |
+| NTSA0XV103   ✨| NTC     | Temperature Sensor Lead Type, 10k 21mW, 2.5mm   |
 | NTSD0WB203   | NTC     | Temperature Sensor, Lead Insulation Type, 20k 21mW, 2.5mm |
 | NTSD0WC303   | NTC     | Temperature Sensor, Lead Insulation Type, 30k 21mW, 2.5mm |
 | NTSD0WD503   | NTC     | Temperature Sensor, Lead Insulation Type, 50k 21mW, 2.5mm |
 | NTSD0WF104   | NTC     | Temperature Sensor, Lead Insulation Type, 100k 21mW, 2.5mm |
-| NTSD0XH103   | NTC     | Temperature Sensor, Lead Insulation Type, 10k 15mW, 2.5mm |
+| NTSD0XH103   ✨| NTC     | Temperature Sensor, Lead Insulation Type, 10k 15mW, 2.5mm |
 | NTSD0XM202   | NTC     | Temperature Sensor, Lead Insulation Type, 2k 21mW, 2.5mm  |
 | NTSD0XR502   | NTC     | Temperature Sensor, Lead Insulation Type, 5k 21mW, 2.5mm  |
-| NTSD0XV103   | NTC     | Temperature Sensor, Lead Insulation Type, 10k 21mW, 2.5mm |
+| NTSD0XV103   ✨| NTC     | Temperature Sensor, Lead Insulation Type, 10k 21mW, 2.5mm |
 
 ## 4. 通用模型
 
