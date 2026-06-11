@@ -1,20 +1,9 @@
-本课程设计为一个温度检测系统
+温度是工业生产与日常生活中最基本且最常需要监测的物理量之一，精确、可靠的温度检测对保证设备安全运行及产品质量具有重要意义。本课程设计基于 LM358 运算放大器设计并实现了一个低成本、结构简单的温度检测系统。该系统采用 NTC 负温度系数热敏电阻作为温度传感元件，通过惠斯通电桥将温度变化引起的电阻变化转换为电压信号，经 LM358 运算放大器构成的两级差分放大电路对微弱信号进行放大，最后由 LM393 电压比较器将放大后的信号与预设阈值进行比较，驱动 LED 指示灯实现温度超限报警。本文首先明确了系统的功能要求与技术指标，对温度传感器、信号放大电路等关键模块进行了方案论证与选型比较，确定了以热敏电阻—电桥—LM358 差分放大—LM393 比较器—LED 指示为主线的系统架构；随后给出了系统总体框图与工作原理，完成了各模块的详细电路设计与参数计算，并对整体电路进行了仿真测试与实物调试。仿真结果表明，该系统能够准确检测环境温度变化并给出清晰的阈值指示，具有电路结构简单、成本低廉、响应灵敏等优点，适用于家用电器温度监控等对精度要求适中的应用场景。
 
-feature:
-- 自定义监测温度
-- 基于 LM358 运算放大器
-- 基于 LM393 比较器
-- 使用热敏电阻检测温度
-- 利用惠斯通电桥检测阻值变化
-- 使用 LED 灯输出温度阈值变化
-
+关键词：温度检测；惠斯通电桥；LM358 运算放大器；LM393 比较器
 
 ---
 
-## 举例内容
+Temperature is one of the most fundamental and frequently monitored physical quantities in industrial production and daily life. Accurate and reliable temperature detection is essential for ensuring equipment safety and product quality. This course design presents a low-cost, simple-structured temperature detection system based on the LM358 operational amplifier. The system employs an NTC (Negative Temperature Coefficient) thermistor as the temperature sensing element. A Wheatstone bridge converts the resistance variation caused by temperature changes into a voltage signal, which is then amplified by a two-stage differential amplifier circuit built around the LM358 operational amplifier. The amplified signal is compared with a preset threshold by an LM393 voltage comparator, driving LED indicators to provide over-temperature alarm output. This paper first defines the system functional requirements and technical specifications, conducts scheme demonstration and comparison for key modules including the temperature sensor and signal amplifier, and establishes a system architecture centered on the thermistor-bridge-LM358 differential amplifier-LM393 comparator-LED indicator chain. The overall system block diagram and operating principle are then presented, followed by detailed circuit design and parameter calculation for each module. Finally, the complete circuit is tested through simulation and physical debugging. Simulation results show that the system can accurately detect ambient temperature variations and provide clear threshold indication, offering the advantages of simple circuit structure, low cost, and responsive performance. It is suitable for applications with moderate accuracy requirements such as household appliance temperature monitoring.
 
-随着人们对生活品质要求越来越高，室内空气质量是关系到人们身体健康以及生活质量的重要指标。而传统的开窗换气方式受到季节、天气、噪音、室外污染等因素的影响无法保证长时间、有效率地进行空气流通。一般民用的新风系统都是固定的几个档位，不能根据室内的实际情况自动调整，能耗较高、智能化水平较低、运行时噪音较大等问题。为解决这些问题，本论文基于西门子 S7-1200PLC 开发一款适用于住宅的新风智能控制系统。
-
-本设计针对家庭新风系统进行研究，在此基础上完成硬件选型、电路设计、PLC程序编写、触摸屏组态及系统仿真调试等。系统根据室内的温湿度、有害气体浓度等因素进行控制，在自动模式下以及手动模式下均可正常工作，可以按需调节风扇转速来达到通风换气的目的，还可以排出有害物质以及检测运行情况并发出警报等。硬件方面对PLC主机、扩展模块、传感器、执行器、触摸屏以及驱动电路进行了合理搭配；软件上在TIAPortal中使用模块化的梯形图进行编程，便于阅读以及后期维护。经过仿真以及逻辑检验，该系统的正常工作、良好的控制性能、快速的响应速度，都能在保证室内的通风效果的基础上节约能源消耗，是家庭智能通风系统一种结构简单、经济实惠、实用性强的设计方案。
-
-关键词：PLC；智能新风系统；家庭通风；空气质量监测
+Keywords: temperature detection; Wheatstone bridge; LM358 operational amplifier; LM393 comparator
